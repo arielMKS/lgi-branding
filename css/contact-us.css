@@ -37,7 +37,6 @@
   font-size: 1.25em;
   /*background: rgba(64, 64, 64, 0.25);*/
   background: rgba(255,255,255, .6);
-
   border: 1px solid white;
 }
 .outer-wrapper textarea {
@@ -47,6 +46,7 @@
     margin-top: 10px;
 }
 .outer-wrapper .wrapper {
+  border: 2px solid red;
   position: relative;
   top: 4%;
   width: 85%;
@@ -74,5 +74,8 @@
 @media screen and (max-width:768px) {
   .text-center {
     margin-bottom: 3em;
+  }
+  .outer-wrapper .wrapper {
+    top: 0%;
   }
 }

@@ -209,7 +209,7 @@ footer p {
         display: block;
     }
     .nav div.logo {
-        margin-left: 15px;
+        margin-left: 2px;
         width: 200%;
     }
     .nav div.main_list {
@@ -266,6 +266,8 @@ footer p {
     }
 }
 
+
+/* Settings for hamburger */
 .navTrigger {
     cursor: pointer;
     width: 30px;
@@ -455,6 +457,8 @@ footer p {
     }
 }
 
+
+/*Affix class for onscroll effect*/
 .affix { /*apply this class to navigation after scroll*/
     padding: 0;
     /*background-color: #111;*/
@@ -462,6 +466,7 @@ footer p {
     /*background-color: rgba(255,255,255,0.5);*/
 }
 
+/*
 .myP {
 	text-align: justify;
 	padding-left:15%;
@@ -473,4 +478,4 @@ footer p {
 	.myP {
 		padding:2%;
 	}
-}
+}*/

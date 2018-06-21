@@ -19,20 +19,16 @@
   /*background: rgba(255,255,255,.5);*/
 }
 .section1 .overlay h2 {
-  color: #3399ff; /*color bluish*/
-  text-align: center;
-  padding-top: 25px;
-  margin-top: 25px;
-  font-weight: 900;
+  padding: 0 25px;
+  margin: 0 25px;
 }
-
 .section1 .section1A {
-  /*border: 2px solid yellow;*/
+  border: 2px solid yellow;
   text-align: center;
   width: 100%;
   position: relative;
-  margin: 0px auto;
-  top: 10%;
+  /*margin: 0px auto;*/
+  top: 15%;
 }
 
 .section1 img {
@@ -43,11 +39,12 @@
   bottom: 0;
 }
 
-.section1 .carousel-caption h2 {
+.section1 .carousel-caption h3 {
   padding: 0;
   margin: 5px auto;
   width: 50%;
   color: #dcf441;
+  /*color: red;*/
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -60,7 +57,7 @@
 .container main {
   margin: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-gap: .5em;
 }
 
@@ -98,8 +95,6 @@
 }
 .ourteam-bg {
   background-color: #e6f3ff;
-  /*margin: 10px;
-  padding: 10px;*/
 }
 
 
@@ -131,6 +126,8 @@
   }
   .grid-item {
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
+    /*padding: 0;
+    margin: 0; START WORK HERE ======= */
   }
 } /*end media query 576px*/
