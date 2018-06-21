@@ -1,0 +1,136 @@
+.section1 {
+  /*top: 50px;*/
+  width: 100%;
+  padding:0;
+  margin:0;
+  /*width:50%;*/
+  position:relative;
+  background: url('../images/globe1.jpg') no-repeat bottom center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow:hidden;
+}
+.section1 .overlay {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  /*height:100%;*/
+  background: rgba(0, 0, 0, .6);
+  /*background: rgba(255,255,255,.5);*/
+}
+.section1 .overlay h2 {
+  color: #3399ff; /*color bluish*/
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 25px;
+  font-weight: 900;
+}
+
+.section1 .section1A {
+  /*border: 2px solid yellow;*/
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  top: 10%;
+}
+
+.section1 img {
+  width: 40%;
+}
+
+.section1 .carousel-caption {
+  bottom: 0;
+}
+
+.section1 .carousel-caption h2 {
+  padding: 0;
+  margin: 5px auto;
+  width: 50%;
+  color: #dcf441;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.container {
+  padding-top: 2em;
+  /*background: blue;*/
+}
+.container main {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: .5em;
+}
+
+.container img {
+  margin: 0 auto;
+  border-radius: 3px;
+  display: block;
+  width: 100%; /* keep 100% width*/
+  margin-bottom: .75em;
+}
+.grid-item {
+  /*overflow: hidden;*/
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 100%;
+}
+.container .wrapper {
+  margin: 0 auto;
+  width: 80%; /* adjust to resize image, text*/
+  padding: 1em .25em;
+}
+.container .wrapper h3, .wrapper h4 {
+  overflow: hidden;
+  text-align: center;
+  /*padding-bottom: .25em;*/
+}
+.container .wrapper h3 {
+  color: #3399ff;
+  text-transform: uppercase;
+}
+.container .wrapper h4 {font-style: italic;}
+.container .wrapper p {
+  text-align: justify;
+  font-size: 1.5em;
+}
+.ourteam-bg {
+  background-color: #e6f3ff;
+  /*margin: 10px;
+  padding: 10px;*/
+}
+
+
+/* Media query section */
+@media screen and (max-width: 992px) {
+  .section1 img {
+    width: 45%;
+  }
+} /*end media query 992px*/
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    height: 75vh; /* reduce page height to cut empty background space*/
+  }
+  .section1 img {
+    width: 60%;
+  }
+  .section1 .carousel-caption h3 {
+    font-size: 1.75rem;
+    padding: 0;
+    width: 100%;
+    margin: 3px auto;
+  }
+} /*end media query 768px*/
+
+@media screen and (max-width: 576px) {
+  .section1 img {
+    width: 90%;
+  }
+  .grid-item {
+    margin: 0 auto;
+    width: 70%;
+  }
+} /*end media query 576px*/
