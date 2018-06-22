@@ -23,11 +23,9 @@
   margin: 0 25px;
 }
 .section1 .section1A {
-  border: 2px solid yellow;
   text-align: center;
   width: 100%;
   position: relative;
-  /*margin: 0px auto;*/
   top: 15%;
 }
 
