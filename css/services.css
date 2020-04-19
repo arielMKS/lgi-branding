@@ -67,7 +67,8 @@
   overflow: hidden;
 }
 .outer-wrapper .wrapper1 {
-  margin: 1%;
+  /* margin: 1%; */
+  margin: 0 auto;
   width: 30%;
   float: left;
 }
@@ -112,6 +113,9 @@
 .ourtestimonial-bg {
   /*height: auto;*/
   background-color: #e6f3ff; /*color darker bluish*/
+}
+.centered {
+  display: flex;
 }
 
 
